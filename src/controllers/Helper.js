@@ -41,22 +41,6 @@ const Helper = {
     );    
     return token;
   },
-
-   /**
-   * Gnerate Token
-   * @param {string} id
-   * @returns {string} token
-   */
-  deleteToken(id) {
-    const token = jwt.sign({
-      exp: Date.now(),
-      userId: id
-    },
-      process.env.SECRET, { expiresIn: '7d' }
-    );    
-  
-    return token;
-  }
 }
 
 export default Helper;
