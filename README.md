@@ -38,4 +38,6 @@ node db dropServiceTable
 
 ```
 
+npm start
+
 [Download Postman APIs Collection](https://raw.githubusercontent.com/mahesh9696/simform/master/saloon.postman_collection.json)
