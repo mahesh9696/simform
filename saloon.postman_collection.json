@@ -2,7 +2,7 @@
 	"variables": [],
 	"info": {
 		"name": "saloon",
-		"_postman_id": "1859a78e-79f7-e071-6ab4-75d73ef6edc6",
+		"_postman_id": "4b1d2886-bcec-de90-d78f-cea94e897104",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -55,6 +55,12 @@
 					{
 						"key": "Content-Type",
 						"value": "application/x-www-form-urlencoded",
+						"description": "",
+						"disabled": true
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YjRiODEyMi01ZTAyLTQ1MjQtODVjZS1kNDg2Yzg1YjAwMTUiLCJpYXQiOjE1NTgwODUwODAsImV4cCI6MTU1ODY4OTg4MH0.ybZLKw49brbL8ZO87QDWLfrgUQ-2I33flQ9-ZQ95g_4",
 						"description": ""
 					}
 				],
@@ -87,7 +93,7 @@
 				"header": [
 					{
 						"key": "x-access-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIwOTkyNzlkNC05NWY2LTRlMTItYTJiMS02OGMzYTdiZjg2N2EiLCJpYXQiOjE1NTgwODU1MzMsImV4cCI6MTU1ODY5MDMzM30.5Ep0tv0p7Aj4BmYmfNlWPlaUE4MnWyQXYIEh1TquDKI",
 						"description": ""
 					}
 				],
@@ -104,7 +110,7 @@
 				"header": [
 					{
 						"key": "x-access-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMWE4OTZlMS0yYWE0LTQ3ZjItOGViYy1mYzI4MDgyYTU2NmQiLCJpYXQiOjE1NTgwODUzNDMsImV4cCI6MTU1ODY5MDE0M30.Si8xv8hvxV89rqfN5VlUSTsq-JwbLAtAneyOh5BwcYA",
 						"description": ""
 					}
 				],
@@ -121,7 +127,7 @@
 				"header": [
 					{
 						"key": "x-access-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMWE4OTZlMS0yYWE0LTQ3ZjItOGViYy1mYzI4MDgyYTU2NmQiLCJpYXQiOjE1NTgwODUzNDMsImV4cCI6MTU1ODY5MDE0M30.Si8xv8hvxV89rqfN5VlUSTsq-JwbLAtAneyOh5BwcYA",
 						"description": ""
 					},
 					{
@@ -159,7 +165,7 @@
 				"header": [
 					{
 						"key": "x-access-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YjRiODEyMi01ZTAyLTQ1MjQtODVjZS1kNDg2Yzg1YjAwMTUiLCJpYXQiOjE1NTgwODUwODAsImV4cCI6MTU1ODY4OTg4MH0.ybZLKw49brbL8ZO87QDWLfrgUQ-2I33flQ9-ZQ95g_4",
 						"description": ""
 					}
 				],
