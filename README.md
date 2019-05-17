@@ -32,7 +32,7 @@ node db createAppointmentsTable
 
 #### For Drop tables
 ```
-node db createUserTable
+node db dropUserTable
 node db dropServiceTable
 node db dropAppointmentTable
 ```
