@@ -1,0 +1,172 @@
+{
+	"variables": [],
+	"info": {
+		"name": "saloon",
+		"_postman_id": "1859a78e-79f7-e071-6ab4-75d73ef6edc6",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"url": "http://localhost:3000/api/v1/users/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_name",
+							"value": "Mahesh",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "m.mahesh.p@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "mahesh",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"url": "http://localhost:3000/api/v1/users/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "m.mahesh.p@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "mahesh",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Services",
+			"request": {
+				"url": "http://localhost:3000/api/v1/services",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "All Appointments",
+			"request": {
+				"url": "http://localhost:3000/api/v1/appointments",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Book Appointment",
+			"request": {
+				"url": "http://localhost:3000/api/v1/appointments/book",
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "appointment_time",
+							"value": "17/05/2019",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "service_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Cancel Appointment",
+			"request": {
+				"url": "http://localhost:3000/api/v1/appointments/cancel/3",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5NDVjYzNmYi0xZTU2LTRiNjMtODE3Ni1hZjliMWJjYjFmODYiLCJpYXQiOjE1NTgwNzk2MTEsImV4cCI6MTU1ODY4NDQxMX0.5ZuC7bQokMuulIbPULzFzA3dMvq3d232i7HwLgV9xjM",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
