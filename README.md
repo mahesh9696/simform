@@ -32,9 +32,10 @@ node db createAppointmentsTable
 
 #### For Drop tables
 ```
+node db dropAppointmentTable
 node db dropUserTable
 node db dropServiceTable
-node db dropAppointmentTable
+
 ```
 
 [Download Postman APIs Collection](https://raw.githubusercontent.com/mahesh9696/simform/master/saloon.postman_collection.json)
