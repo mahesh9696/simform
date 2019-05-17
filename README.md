@@ -10,6 +10,13 @@ What things you need to install the software and how to install them
 Node JS
 PostgreSQL
 ```
+
+### ENV Variables
+```
+DATABASE_URL=postgres://root:root@127.0.0.1:5432/saloon_db
+SECRET=simform
+```
+
 ### Run below commands
 
 npm install
